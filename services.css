@@ -1,0 +1,138 @@
+*{
+	margin: 0;
+	padding:0;
+}
+
+
+
+h1,h2,h3,h4,h5,h6,p{
+	color: white;
+font-family: 'Acme', sans-serif;
+
+}
+
+
+#heading {
+
+	margin-top: 2%;
+}
+
+#heading h1 , h3{
+	margin-left: 2rem;
+}
+
+
+body{
+	background-color: black;
+	animation: 1s drive;
+}
+
+@keyframes drive{
+
+   from {
+   	opacity: 0;
+   }
+
+   to{
+   	opacity: 1;
+   }
+
+
+}
+
+#ser{
+	margin-top: 3%;
+}
+
+
+.wat{
+
+	text-align: center;
+	margin-top: 17%;
+
+	}
+
+	.wat img{
+		width: 10%;
+		cursor: pointer;
+	}
+
+	#musk{
+		background-color: white;
+		margin-top: 12%;
+		text-align: center;
+		padding:1rem;
+	}
+
+	#musk h2{
+		color: black;
+
+	}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+	.wat img{
+		width: 50%;
+		cursor: pointer;
+	}html{
+		font-size: 15px;
+	}
+
+
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	.wat img{
+		width: 40%;
+		cursor: pointer;
+	}html{
+		font-size: 15px;
+	}
+
+
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+	.wat img{
+		width: 30%;
+		cursor: pointer;
+	}html{
+		font-size: 16px;
+	}
+
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.wat img{
+		width: 20%;
+		cursor: pointer;
+	}
+
+html{
+		font-size: 17px;
+	}
+
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  
+  	.wat img{
+		width: 15%;
+		cursor: pointer;
+	}
+
+	html{
+		font-size: 18px;
+	}
+
+
+}

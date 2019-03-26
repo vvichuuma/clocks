@@ -1,0 +1,184 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+#head{
+	width: 100%;
+	margin-top: 1%;
+    margin-left: 5%;
+}
+
+#head h2{
+   
+    color: white;
+
+}
+
+h1,h2,h3,h4,h5,h6,p{
+	color: white;
+	font-family: 'Acme', sans-serif;
+
+}
+
+.vish{
+
+	padding: 1rem;
+}
+
+
+.wat{
+
+	text-align: center;
+	margin-top: 17%;
+
+	}
+
+	.wat img{
+		width: 10%;
+		cursor: pointer;
+	}
+
+
+
+html, body{
+
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+#foot{
+    margin-top: 7%;
+	background-color: white;
+	color: black;
+	text-align: center;
+	padding: 0.2rem;
+
+}
+
+#foot h2{
+	color: black;
+	margin: 1%;
+
+
+}
+
+
+
+body{
+    background-color: black;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: cover;
+	animation: 1s drive;
+}
+
+
+@keyframes drive{
+
+   from {
+   	opacity: 0;
+   }
+
+   to{
+   	opacity: 1;
+   }
+
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+	.wat img{
+		width: 50%;
+		cursor: pointer;
+	}	html{
+		font-size: 15px;
+	}
+
+	#foot{
+		font-size: 12px;
+	}
+
+
+
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	.wat img{
+		width: 40%;
+		cursor: pointer;
+	}	html{
+		font-size: 15px;
+	}
+
+	#foot{
+		font-size: 13px;
+	}
+
+
+
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+	.wat img{
+		width: 30%;
+		cursor: pointer;
+	}	html{
+		font-size: 16px;
+	}
+
+	#foot{
+		font-size: 14px;
+	}
+
+
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.wat img{
+		width: 20%;
+		cursor: pointer;
+	}
+	html{
+		font-size: 17px;
+	}
+
+	#foot{
+		font-size: 15px;
+	}
+
+
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  
+  	.wat img{
+		width: 15%;
+		cursor: pointer;
+	}
+
+
+	html{
+		font-size: 18px;
+	}
+
+	#foot{
+		font-size: 16px;
+	}
+
+
+}
+
+
+
+
